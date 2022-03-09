@@ -1,0 +1,23 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.PageTop {
+  background-color: rgb(17, 56, 85);
+  height: 300px;
+}
+
+header {
+  color: white;
+  font-weight: bold;
+  margin-left: 5%;
+  padding-top: 0.5%;
+}
+
+a {
+  background-color: red;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  float: center;
+}
