@@ -2,22 +2,18 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-.PageTop {
-  background-color: rgb(17, 56, 85);
-  height: 300px;
+.page_top {
+  background-color: rgb(48, 79, 54);
 }
 
-header {
-  color: white;
-  font-weight: bold;
-  margin-left: 5%;
-  padding-top: 0.5%;
+.quote {
+  background-color: rgb(175, 201, 180);
 }
 
-a {
-  background-color: red;
-  text-decoration: none;
-  color: white;
-  font-size: 12px;
-  float: center;
+.action {
+  background-color: rgb(71, 116, 80);
+}
+
+.footer {
+  background-color: rgb(48, 79, 54);
 }
