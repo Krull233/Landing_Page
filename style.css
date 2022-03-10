@@ -1,19 +1,66 @@
-* {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* * {
   font-family: "Courier New", Courier, monospace;
 }
 
 .page_top {
-  background-color: rgb(48, 79, 54);
+  background-color: rgb(19, 56, 26);
+  padding-bottom: 15%;
 }
 
 .quote {
-  background-color: rgb(175, 201, 180);
+  background-color: rgb(148, 211, 161);
+  padding: 5% 0% 5% 0%;
 }
 
 .action {
-  background-color: rgb(71, 116, 80);
+  background-color: rgb(243, 226, 92);
+  padding: 0.5% 0% 0.5% 0%;
 }
 
 .footer {
-  background-color: rgb(48, 79, 54);
+  background-color: rgb(19, 56, 26);
+  padding: 0.5% 0% 0.5% 0%;
 }
+
+.navbar {
+  margin-left: 8%;
+  margin-right: 6%;
+  display: flex;
+}
+
+header {
+  max-width: 9%;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10%;
+  padding-top: 1%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin-right: 5%;
+}
+
+.sunflower {
+  border-style: dashed;
+  border-color: rgb(255, 255, 255);
+  width: 25%;
+  height: auto;
+  float: right;
+}
+
+.top_blurb {
+  background-color: red;
+  width: 85%;
+  color: white;
+  margin: 5% 0% 0% 7.5%;
+  padding-bottom: 15%;
+} */
