@@ -1,21 +1,103 @@
-/* v Universal v */
+/* CSS across the whole page */
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-/*v Top of Page and NavBar v*/
 
-/*v Blurb and image of Sunflower v*/
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(0, 0, 0);
+  background-color: rgb(230, 155, 165);
+}
 
-/*v Images of flowers with text v*/
+img {
+  max-width: 100%;
+}
 
-/*v Quote v*/
+h1,
+h2 {
+  margin-bottom: 15px;
+}
 
-/*v Call to Action v*/
+ul {
+  list-style-type: none;
+}
 
-/*v Footer with copyright info v*/
-footer {
+button {
+  padding: 2px;
+  border-radius: 25px;
+}
+/* CSS across the whole page */
+
+/* CSS across the NavBar */
+.navbar .container {
   display: flex;
-  justify-content: center;
-  background-color: green;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar {
+  background-color: rgb(189, 98, 110);
   color: white;
+  height: 60px;
+}
+
+.navbar .logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul :hover {
+  color: rgb(255, 217, 0);
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+/* CSS across the NavBar */
+
+/* CSS for the top blurb */
+.header {
+  background-color: rgb(204, 116, 128);
+  display: flex;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header .container {
+  display: flex;
+}
+
+.container h2 {
+  color: rgb(255, 217, 0);
+}
+
+.sunflower {
+  height: 250px;
+  float: right;
+  border-style: dotted;
+  border-color: white;
+  border-width: 10px;
+}
+/* CSS for the top blurb */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
