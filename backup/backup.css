@@ -1,0 +1,21 @@
+/* v Universal v */
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/*v Top of Page and NavBar v*/
+
+/*v Blurb and image of Sunflower v*/
+
+/*v Images of flowers with text v*/
+
+/*v Quote v*/
+
+/*v Call to Action v*/
+
+/*v Footer with copyright info v*/
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  color: white;
+}
