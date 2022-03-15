@@ -6,6 +6,12 @@
   padding: 0;
 }
 
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
 body {
   font-size: 16px;
   line-height: 1.5;
@@ -75,7 +81,6 @@ button {
 .header {
   background-color: rgb(204, 116, 128);
   display: flex;
-
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -84,8 +89,20 @@ button {
   display: flex;
 }
 
+.container p {
+  padding-right: 20px;
+}
+
+.container p:first-of-type {
+  margin-bottom: 20px;
+}
+
 .container h2 {
   color: rgb(255, 217, 0);
+}
+
+.top_button {
+  margin-top: 20px;
 }
 
 .sunflower {
@@ -96,8 +113,37 @@ button {
   border-width: 10px;
 }
 /* CSS for the top blurb */
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 30px;
+
+/* CSS for boxes */
+.boxes {
+  height: 500px;
+  min-width: 1100px;
 }
+
+.flower-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+h2 {
+  color: rgb(255, 217, 0);
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.flower img {
+  height: 150px;
+  width: 200px;
+  border-style: dotted;
+  border-color: white;
+  border-width: 10px;
+}
+
+.flower p {
+  height: 20px;
+  width: 200px;
+}
+/* CSS for boxes */
