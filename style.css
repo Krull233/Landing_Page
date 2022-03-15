@@ -33,9 +33,12 @@ ul {
 }
 
 button {
+  margin-top: 20px;
+  margin-left: 10px;
   padding: 2px;
   border-radius: 25px;
 }
+
 /* CSS across the whole page */
 
 /* CSS across the NavBar */
@@ -101,10 +104,6 @@ button {
   color: rgb(255, 217, 0);
 }
 
-.top_button {
-  margin-top: 20px;
-}
-
 .sunflower {
   height: 250px;
   float: right;
@@ -149,3 +148,47 @@ button {
   width: 200px;
 }
 /* CSS for boxes */
+
+/* CSS for quote */
+.quote {
+  background-color: rgb(255, 184, 193);
+  height: 150px;
+  max-width: 2000px;
+}
+
+.quote p {
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+/* CSS for quote */
+
+/* CSS for the "Come Join Us" */
+.action {
+  background-color: rgb(204, 116, 128);
+  height: 100px;
+  max-width: 550px;
+  margin: 20px 0px 20px 500px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+h4 {
+  color: rgb(255, 217, 0);
+}
+
+/* CSS for the "Come Join Us" */
+
+/* CSS for the footer */
+footer {
+  background-color: rgb(189, 98, 110);
+  display: flex;
+  justify-content: center;
+  padding: 5px 0px 5px 0px;
+}
+/* CSS for the footer */
